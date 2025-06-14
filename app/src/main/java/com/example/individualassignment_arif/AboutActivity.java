@@ -23,7 +23,7 @@ public class AboutActivity extends AppCompatActivity {
                 "Copyright 2025");
 
         btnGit.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/yourusername/elecbillapp"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/arifhxkimi/ElectricBillEstimator"));
             startActivity(browserIntent);
         });
     }
