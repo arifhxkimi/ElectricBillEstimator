@@ -4,14 +4,24 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="24dp">
 
+    <!-- Logo Image -->
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/ebe_logo"
+        android:contentDescription="EBE Logo"
+        android:layout_marginBottom="20dp" />
+
+    <!-- App Title -->
     <TextView
         android:id="@+id/splashText"
-        android:text="⚡ Neon Bill Estimator"
+        android:text="EBE: Electric Bill Estimator"
         android:textColor="@color/neonPink"
         android:textStyle="bold"
-        android:textSize="26sp"
+        android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>

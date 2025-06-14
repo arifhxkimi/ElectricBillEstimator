@@ -10,10 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Title -->
+        <!-- Logo Image -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ebe_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="App Logo" />
+
+        <!-- App Title -->
         <TextView
             android:id="@+id/appTitle"
-            android:text="⚡ Neon Bill Estimator"
+            android:text="EBE: Electric Bill Estimator"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="@color/neonPink"
