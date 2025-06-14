@@ -20,7 +20,7 @@ public class AboutActivity extends AppCompatActivity {
         about.setText("Name: Nur Arif Hakimi Bin Noor Hazri\n" +
                 "Student ID: 2024542311\n" +
                 "Course: ICT602 - Mobile Technology and Development\n" +
-                "Copyright 2025");
+                "© 2025 Nur Arif Hakimi. All rights reserved.");
 
         btnGit.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/arifhxkimi/ElectricBillEstimator"));

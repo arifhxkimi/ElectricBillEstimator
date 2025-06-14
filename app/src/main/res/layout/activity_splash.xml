@@ -18,10 +18,10 @@
     <!-- App Title -->
     <TextView
         android:id="@+id/splashText"
-        android:text="EBE: Electric Bill Estimator"
-        android:textColor="@color/neonPink"
-        android:textStyle="bold"
-        android:textSize="22sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="EBE : Electric Bill Estimator"
+        android:textColor="@color/neonPink"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 </LinearLayout>

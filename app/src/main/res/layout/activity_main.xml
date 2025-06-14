@@ -22,14 +22,14 @@
         <!-- App Title -->
         <TextView
             android:id="@+id/appTitle"
-            android:text="EBE: Electric Bill Estimator"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="@color/neonPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="EBE : Electric Bill Estimator"
+            android:textColor="@color/neonPink"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <!-- Month Selection -->
         <TextView
