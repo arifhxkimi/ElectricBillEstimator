@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:text="⚡ Neon Bill Estimator"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/neonPink"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Month Selection -->
+        <TextView
+            android:text="Select Month"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/card"
+            android:backgroundTint="@color/neonPink" />
+
+        <!-- Usage Input -->
+        <TextView
+            android:text="Enter Usage (kWh)"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextUnit"
+            android:hint="e.g. 250"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="@color/textSecondary"
+            android:backgroundTint="@color/neonPink"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Rebate Selection -->
+        <TextView
+            android:text="Select Rebate (%)"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerRebate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/card"
+            android:backgroundTint="@color/neonPink" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:text="Calculate and Save"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonText"
+            android:backgroundTint="@color/neonPink"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Result Output -->
+        <TextView
+            android:id="@+id/textViewResult"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/neonPink"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- View Saved Bills -->
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:text="View Saved Bills"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonText"
+            android:backgroundTint="@color/card"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- About Button -->
+        <Button
+            android:id="@+id/btnAbout"
+            android:text="About"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonText"
+            android:backgroundTint="@color/card"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
